@@ -1,0 +1,185 @@
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    transform: scaleX(1.3);
+    margin-bottom: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#title {
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#header-container {
+    color: #f8f9fa;
+    background-color: #343a40;
+    width: 99.5%;
+    margin: auto;
+    border: 5px solid #343a40;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#contact-container {
+    color: #f8f9fa;
+    background-color: #212529;
+    width: 99.5%;
+    margin: auto;
+    border: 5px solid #212529;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#summary {
+    line-height: 1.5;
+    margin: auto;
+    font-weight: 500;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 40px;
+    max-width: 30%;
+}
+
+#contact-info {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px;
+    font-size: larger;
+
+}
+
+
+#education {
+    margin-top: 75px;
+    text-align: center;
+}
+
+#education ul {
+    list-style-position: inside;
+    display: inline-block;
+    /* Allows the ul to be centered */
+    text-align: left;
+    /* Aligns the text to the left inside the centered ul */
+    /* Puts bullet inside of the ul so it can be centered */
+}
+
+#work {
+    margin-top: 75px;
+    text-align: center;
+}
+
+#work ul {
+    list-style-position: inside;
+    display: inline-block;
+    /* Allows the ul to be centered */
+    text-align: left;
+    /* Aligns the text to the left inside the centered ul */
+    /* Puts bullet inside of the ul so it can be centered */
+}
+
+
+
+
+
+
+#sub {
+    background-color: #adb5bd;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+#field {
+    background-color: #ced4da;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#office {
+    background-color: #dee2e6;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+#bio {
+    background-color: #e9ecef;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#volunteer {
+    background-color: #f8f9fa;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#personal-projects {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+#project-list {
+    list-style-type: none;
+    /* This will remove the bullet points */
+    padding: 0;
+    /* This will remove any default padding */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    /* This sets even spacing between items */
+}
+
+.project-item {
+    text-align: center;
+    /* To center the text */
+}
+
+.thumbnail {
+    width: 200px;
+    /* Adjust the width as you see fit */
+    height: auto;
+    /* This will maintain the aspect ratio */
+}
+
+.project-item a {
+    display: block;
+    /* Makes the link occupy the full width of the li, useful for centering */
+}
+
+
+

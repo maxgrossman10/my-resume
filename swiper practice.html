@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/this-post-explains-the-fundamentals-of-linear-regression-and-illustrates-its-assumptions-ac2c86dbe89f" target="_blank">
+            <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower1.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">Fundamentals of Linear Regression</strong>
+      </div>
+    
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/auc-roc-curve-f62fb7c8ec25" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower 2.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">AUC-ROC Curve Explanation</strong>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/how-to-use-markdown-3446ace61cd7" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower3.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">How to Use Markdown</strong>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/central-limit-theorem-sample-mean-distribution-b704a7ea69df" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower4.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">Central Limit Theorem & Sample Mean Distribution</strong>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/establishing-your-coding-environment-part-1-downloading-python-visual-studio-code-86439c16185a" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower8.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">Establishing
+          Your Coding Environment: Part 1</strong>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/establishing-your-development-environment-part-2-visual-studio-code-extensions-running-python-c4e225e82c43" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower6.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">Establishing
+          Your Coding Environment: Part 2</strong>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://medium.com/@maxgrossman10/normal-distribution-visualization-with-python-kernel-density-estimations-area-under-the-curve-d07e26d95dca" target="_blank">
+          <img src="C:\Projects\Resume Challenge\Resume Challenge\pictures\flower7.png" />
+        </a>
+        <strong style="text-align:center; color: #000;">Normal
+          Distribution Visualization with Python</strong>
+      </div>
+
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>
